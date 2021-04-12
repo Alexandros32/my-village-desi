@@ -2,6 +2,10 @@
     background-color:darkorange
   }
 
+body {
+    background-color:beige;
+}
+
 a {
  color:rgb(0, 0, 255)
 }
@@ -23,10 +27,6 @@ a:hover {
 .carousel-item img {
     width: 100%;   
     height: 100vh;    
-}
-
-.clearfix {
-    background-color:rgb(95, 130, 207);
 }
 
 .row>*{
@@ -167,13 +167,10 @@ h4 {
 }
 
 .card {
-      background-color:rgb(95, 130, 207);
+    background-color:beige;
 }
 
-.text-dark {
-        background-color: #01e1ff;
-              
-  }
+
 
 .containerd-flex {
             margin-left: auto;
