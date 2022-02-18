@@ -1,17 +1,35 @@
+.navbar.navbar-expand-lg.fixed-top {
+  background-color: darkorange;
+}
+
+.navbar {
+  margin-top: -0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 body {
     background-color:beige;
 }
 
 a {
- color:rgb(0, 0, 255)
+ color:rgb(0, 0, 255);
 }
 
 a:hover {
-    color:purple
+    color:purple;
 }
 
 .dropdown-menu {
-  background-color: rgb(255, 142, 4)   
+  background-color: rgb(255, 142, 4);  
+}
+
+a.dropdown-item {
+  color:rgb(0, 0, 255);
+}
+
+a.dropdown-item:hover {
+  color: purple;
 }
 
 * {
@@ -39,9 +57,9 @@ h1 {
 }
 
 img {
-margin-top: 8px;
+margin-top: 5px;
+margin-bottom: -2px;
 vertical-align: middle;
-
 }
 
 .modal {
